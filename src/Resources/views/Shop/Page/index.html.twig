@@ -3,7 +3,7 @@
 
 {% extends '@SyliusShop/layout.html.twig' %}
 
-{% block content %}
+{% block block %}
     {% if resources.data|length > 0 %}
         {{ render(path('bitbag_sylius_cms_plugin_shop_section_show', {'code' : app.request.get('sectionCode'), 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Index/_section.html.twig'})) }}
     {% endif %}

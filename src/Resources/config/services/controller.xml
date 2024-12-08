@@ -8,17 +8,17 @@
             <argument type="service" id="sylius.generator.slug" />
         </service>
 
-        <service id="bitbag_sylius_cms_plugin.controller.action.admin.product_search" class="BitBag\SyliusCmsPlugin\Controller\Action\Admin\ProductSearchAction">
-            <argument type="service" id="sylius.repository.product" />
-            <argument type="service" id="sylius.context.locale" />
-            <argument type="service" id="fos_rest.view_handler.default" />
-        </service>
+        <!--<service id="bitbag_sylius_cms_plugin.controller.action.admin.product_search" class="BitBag\SyliusCmsPlugin\Controller\Action\Admin\ProductSearchAction">-->
+            <!--<argument type="service" id="sylius.repository.product" />-->
+            <!--<argument type="service" id="sylius.context.locale" />-->
+            <!--<argument type="service" id="fos_rest.view_handler.default" />-->
+        <!--</service>-->
 
-        <service id="bitbag_sylius_cms_plugin.controller.action.admin.taxon_search" class="BitBag\SyliusCmsPlugin\Controller\Action\Admin\TaxonSearchAction">
-            <argument type="service" id="sylius.repository.taxon" />
-            <argument type="service" id="sylius.context.locale" />
-            <argument type="service" id="fos_rest.view_handler.default" />
-        </service>
+        <!--<service id="bitbag_sylius_cms_plugin.controller.action.admin.taxon_search" class="BitBag\SyliusCmsPlugin\Controller\Action\Admin\TaxonSearchAction">-->
+            <!--<argument type="service" id="sylius.repository.taxon" />-->
+            <!--<argument type="service" id="sylius.context.locale" />-->
+            <!--<argument type="service" id="fos_rest.view_handler.default" />-->
+        <!--</service>-->
 
         <service id="bitbag_sylius_cms_plugin.controller.action.admin.import_data" class="BitBag\SyliusCmsPlugin\Controller\Action\Admin\ImportDataAction">
             <argument type="service" id="bitbag_sylius_cms_plugin.processor.import" />

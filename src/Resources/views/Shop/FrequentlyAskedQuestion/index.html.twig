@@ -2,7 +2,7 @@
 
 {% import '@SyliusUi/Macro/messages.html.twig' as messages %}
 
-{% block content %}
+{% block body %}
     <div class="ui stackable grid segment">
         <div id="bitbag-faqs" class="ui sixteen wide column">
             {% if resources|length > 0 %}
@@ -18,7 +18,7 @@
             {% endif %}
         </div>
     </div>
-    
+
     {% if resources|length > 0 %}
         <script type="application/ld+json">
         {

@@ -20,7 +20,8 @@
         {% endif %}
     {% endif %}
 {% endblock %}
-{% block content %}
+
+{% block body %}
     {% if published == true %}
         <div class="ui breadcrumb">
             <a href="{{ path('sylius_shop_homepage') }}" class="section">{{ 'sylius.ui.home'|trans }}</a>
