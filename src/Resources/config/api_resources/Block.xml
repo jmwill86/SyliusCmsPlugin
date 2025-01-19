@@ -43,7 +43,7 @@
 
         <!--<attribute name="validation_groups">sylius</attribute>-->
 
-        <collectionOperations>
+<!--         <collectionOperations>
             <collectionOperation name="shop_get_block">
                 <attribute name="method">GET</attribute>
                 <attribute name="path">/shop/cms-plugin/blocks</attribute>
@@ -56,7 +56,7 @@
                 <attribute name="method">GET</attribute>
                 <attribute name="path">/shop/cms-plugin/blocks/{id}</attribute>
             </itemOperation>
-        </itemOperations>
+        </itemOperations> -->
 
         <property name="id" identifier="true" writable="false"/>
         <property name="code" identifier="false" writable="false"/>
